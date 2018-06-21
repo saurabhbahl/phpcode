@@ -1,14 +1,14 @@
 <?php
 class Name {
     
-    public $name = 'Saurabh'
+    public $name = 'Saurabh';
     
     public function getName(){
         return $this->name;
     }
     
     public function editedOnGit() {
-           $this->name = "Saurabh's Git"; 
+           $this->name = "SaurabhBehl"; 
     }
 }
 
