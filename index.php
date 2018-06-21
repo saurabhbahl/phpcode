@@ -15,7 +15,7 @@ class Name {
 $name = new Name();
 $user_name = $name->getName();
 
-echo "My Name = ".$user_name;
+echo "My Name = ".$user_name."<br>";
 
 $name->editedOnGit();
 $gitName = $name->getName();
