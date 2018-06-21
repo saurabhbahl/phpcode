@@ -1,25 +1,23 @@
 <?php
 class Name {
     
+    public $name = 'Saurabh'
+    
     public function getName(){
-        echo 'Saurabh';
+        return $this->name;
+    }
+    
+    public function editedOnGit() {
+           $this->name = "Saurabh's Git"; 
     }
 }
 
 $name = new Name();
-$user_data = $name->getName();
+$user_name = $name->getName();
 
-?>
+echo "My Name = ".$user_name;
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-            echo $user_data;
-        ?>
-    </body>
-</html>
+$name->editedOnGit();
+$gitName = $name->getName();
+
+echo "User Name = ".$gitName;
