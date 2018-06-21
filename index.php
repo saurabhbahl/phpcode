@@ -1,10 +1,13 @@
 <?php
-class myclass {
+class Name {
     
-    public function myclassfun(){
-        echo 'this is my class';
+    public function getName(){
+        echo 'Saurabh';
     }
 }
+
+$name = new Name();
+$user_data = $name->getName();
 
 ?>
 
@@ -16,7 +19,7 @@ class myclass {
     </head>
     <body>
         <?php
-            echo "hello world!";
+            echo $user_data;
         ?>
     </body>
 </html>
