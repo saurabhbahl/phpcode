@@ -665,13 +665,9 @@
         </div>
         <br><br>    <br><br>  
 
-
-
 </section>
      
-
-
-                           
+                      
 <div id="modalConfirmYesNo" class="modal fade" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -695,23 +691,7 @@
     </div>
 </div> <!-- /.modal Dynamic -->
                                     
-     
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
+                                
 <!-- Feature 1 Modal-Start-->
 <div  class="modal fade"  tabindex="-1" role="dialog" data-toggle="modal-onload" data-progress-bar=""data-duration="10000" id="modal_user_dashboard">
     <div class="modal-dialog">
@@ -763,34 +743,7 @@
                     <!-- Feature 4 Modal-End-->       
                 </div>
       </div>
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
 <!-- Scripts starts -->
 <script src="<?= base_url(); ?>assets/plugins/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
@@ -819,12 +772,3 @@ var cur = '<?php echo $cur_unicode; ?>';
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
